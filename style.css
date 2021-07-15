@@ -60,6 +60,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: rgb(245, 234, 235);
+    padding-bottom: 50px;
 }
 .players{
     width: 1050px;
@@ -109,25 +110,23 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    border-top: 1px solid black;  
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
-.footer-thumbnail img{
+.footer-image img{
     width: 350px;
     padding-top: 20px;
 }
-.social-links{
+.icon{
     text-decoration: none;
     text-align: center;
-    
     font-size: 25px;
 }
-.social-links i{
+.icon i{
     margin-left: 10px;
-    color: rgb(43, 80, 247);
+    color: darkgray;
 }
-.social-links i:hover{
-    color: firebrick;
-    transform: scale(1.5);
-    transition: 1s;
+.copyright{
+    text-align: center;
+    color: lightgrey;
 }
