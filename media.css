@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .title-container{
+        width: 373px;
+        color: white;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .header-image{
+        width: 220px;
+        height: 200px;
+        margin-top: 90px;
+        margin-left: 40px;
+        padding-bottom: 50px;
+    }
+    .container:hover .header-image img{
+        transform: scale(1.2) rotate(360deg);
+        transition: 1s;
+        animation: ease-out;
+    }
+    .player-container{
+        grid-template-columns: repeat(1 , 1fr); 
+        row-gap: 40px; 
+    }
+    .player-info h2{
+        text-align: center;
+    }
+    .player{
+        width: 100%;
+    }
+    .player-image img{
+        width: 100%;
+        height: 280px;
+        align-self: center;
+    }
+  }
